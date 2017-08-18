@@ -88,9 +88,11 @@ plucktwochord = { <b d' c'' fis''>1*5/8 }
 pluckthreechord = { <a e' c'' a''>1*5/8 }
 pluckfourchord = { <g e' b' e''>1*5/8 }
 
+bridgechordrest = { r8 }
+
 bridgechordoneministrum = { g4 } 
 bridgechordoneshortstrum = { g4. }
-bridgechordonelongstrum = { g2~ g8 }
+bridgechordonelongstrum = { g4. r4 }
 
 bridgechordonemini = { <g d' b' g''>4 }
 bridgechordoneshort = { <g d' b' g''>4. }
@@ -112,13 +114,9 @@ bridgechordfourmini = { <b g' b' g''>4 }
 bridgechordfourshort = { <b g' b' g''>4. }
 bridgechordfourlong = { <b g' b' g''>2~ <b g' b' g''>8 }
 
-bridgechordfivemini = { <b g' b' g''>4 }
-bridgechordfiveshort = { <b g' b' g''>4. }
-bridgechordfivelong = { <b g' b' g''>2~ <b g' b' g''>8 }
-
-bridgechordsixmini = { <a fis' d' fis''>4 }
-bridgechordsixshort = { <a fis' d' fis''>4. }
-bridgechordsixlong = { <a fis' d' fis''>2~ <a fis' d' fis''>8 }
+bridgechordfivemini = { <a fis' d' fis''>4 }
+bridgechordfiveshort = { <a fis' d' fis''>4. }
+bridgechordfivelong = { <a fis' d' fis''>2~ <a fis' d' fis''>8 }
 
 
 

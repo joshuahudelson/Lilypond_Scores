@@ -130,6 +130,29 @@
           \bridgechordoneshortstrum
           \bridgechordonelongstrum
           \bridgechordoneministrum
+          
+          \bridgechordoneshortstrum
+          \bridgechordonelongstrum
+          \bridgechordoneministrum
+
+          \bridgechordoneshortstrum
+          \bridgechordonelongstrum
+          \bridgechordoneministrum
+          
+          \bridgechordoneshortstrum
+          \bridgechordoneshortstrum
+          \bridgechordoneministrum
+          
+          \bridgechordoneshortstrum
+          \bridgechordoneshortstrum
+          \bridgechordoneministrum
+
+          \bridgechordoneshortstrum
+          \bridgechordoneshortstrum
+          \bridgechordoneshortstrum
+          \bridgechordoneshortstrum
+          \bridgechordoneministrum
+          
         }
       }
 
@@ -174,7 +197,7 @@
         
         \alternative
         {
-        {
+        { % 1
         \bridgechordtwoshort
         \bridgechordtwolong
         \bridgechordtwomini
@@ -183,7 +206,7 @@
         \bridgechordtwolong
         \bridgechordtwomini
         }
-        {
+        { % 2
         \bridgechordtwoaltshort
         \bridgechordtwoaltlong
         \bridgechordtwoaltmini
@@ -192,16 +215,33 @@
         \bridgechordtwoaltlong
         \bridgechordtwoaltmini
         }
-        {
-        \bridgechordthreeshort
-        \bridgechordthreelong
-        \bridgechordthreemini
+        { % 3
+        \bridgechordtwoshort
+        \bridgechordtwolong
+        \bridgechordtwomini
+        
+        \bridgechordtwoshort
+        \bridgechordtwolong
+        \bridgechordtwomini
+        }
+        }
+        
+        \time 4/4
         
         \bridgechordthreeshort
-        \bridgechordthreelong
+        \bridgechordthreeshort
         \bridgechordthreemini
-        }
-        }
+        
+        \bridgechordfourshort
+        \bridgechordfourshort
+        \bridgechordthreemini
+        
+        \time 7/4
+        \bridgechordfiveshort
+        \bridgechordfiveshort
+        \bridgechordfiveshort
+        \bridgechordfiveshort
+        \bridgechordfivemini
       }
     >>
     }
