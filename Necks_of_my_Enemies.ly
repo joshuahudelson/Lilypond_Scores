@@ -152,8 +152,14 @@
           \bridgechordoneshortstrum
           \bridgechordoneshortstrum
           \bridgechordoneministrum
-          
         }
+
+          \sevenriffone
+          \sevenriffone
+          
+          \sevenrifftwo
+
+
       }
 
       \new TabStaff \with {
@@ -234,7 +240,7 @@
         
         \bridgechordfourshort
         \bridgechordfourshort
-        \bridgechordthreemini
+        \bridgechordfourmini
         
         \time 7/4
         \bridgechordfiveshort
@@ -242,6 +248,12 @@
         \bridgechordfiveshort
         \bridgechordfiveshort
         \bridgechordfivemini
+        
+        \sevenriffone
+        \sevenriffone
+        
+        \sevenrifftwo
+        
       }
     >>
     }

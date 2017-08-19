@@ -114,10 +114,48 @@ bridgechordfourmini = { <b g' b' g''>4 }
 bridgechordfourshort = { <b g' b' g''>4. }
 bridgechordfourlong = { <b g' b' g''>2~ <b g' b' g''>8 }
 
-bridgechordfivemini = { <a fis' d' fis''>4 }
-bridgechordfiveshort = { <a fis' d' fis''>4. }
-bridgechordfivelong = { <a fis' d' fis''>2~ <a fis' d' fis''>8 }
+bridgechordfivemini = { <a fis' d'' fis''>4 }
+bridgechordfiveshort = { <a fis' d'' fis''>4. }
+bridgechordfivelong = { <a fis' d'' fis''>2~ <a fis' d'' fis''>8 }
 
+sevenriffone = {
+          <<
+        { g4. }
+        { s8 [e'8 \glissando g'8]}
+        >>
+        <<
+        { g4. }
+        { s8 [e'8 \glissando g'8]}
+        >>
+        <<
+        { g4. }
+        { s8 [e'8 \glissando g'8]}
+        >>
+        <<
+        { g4. }
+        { s8 [e'8 \glissando g'8]}
+        >>
+        r4
+}
 
+sevenrifftwo = {
+        <<
+        { g4. }
+        { s8 [e'8 \glissando g'8]}
+        >>  
+        <<
+        { g4. }
+        { s8 [g'8 \glissando e'8]}
+        >>
+        <<
+        { d'4 }
+        { s8 [d'' \glissando e''8]}
+        >>
+        <<
+        { a2~a8 }
+        { r8 e'2 }
+        { r4 c''16 (e''16 c''8) a''8 } 
+        >>
+}
 
 
