@@ -27,7 +27,7 @@ halfrifftwosecond = {
         tuplet-number::calc-fraction-text "16")
       \tuplet 9/8
     %} \tuplet 3/2{
-     e8^\markup{\italic "acc."} ( [g e])
+      e8^\markup{\italic "acc."} ( [g e])
     }
     \tuplet 3/2{
       b8( [d b])
@@ -90,7 +90,7 @@ pluckfourchord = { <g e' b' e''>1*5/8 }
 
 bridgechordrest = { r8 }
 
-bridgechordoneministrum = { g4 } 
+bridgechordoneministrum = { g4 }
 bridgechordoneshortstrum = { g4. }
 bridgechordonelongstrum = { g4. r4 }
 
@@ -119,43 +119,43 @@ bridgechordfiveshort = { <a fis' d'' fis''>4. }
 bridgechordfivelong = { <a fis' d'' fis''>2~ <a fis' d'' fis''>8 }
 
 sevenriffone = {
-          <<
-        { g4. }
-        { s8 [e'8 \glissando g'8]}
-        >>
-        <<
-        { g4. }
-        { s8 [e'8 \glissando g'8]}
-        >>
-        <<
-        { g4. }
-        { s8 [e'8 \glissando g'8]}
-        >>
-        <<
-        { g4. }
-        { s8 [e'8 \glissando g'8]}
-        >>
-        r4
+  <<
+    { g4. }
+    { s8 [e'8 \glissando g'8] }
+  >>
+  <<
+    { g4. }
+    { s8 [e'8 \glissando g'8] }
+  >>
+  <<
+    { g4. }
+    { s8 [e'8 \glissando g'8] }
+  >>
+  <<
+    { g4. }
+    { s8 [e'8 \glissando g'8] }
+  >>
+  r4
 }
 
 sevenrifftwo = {
-        <<
-        { g4. }
-        { s8 [e'8 \glissando g'8]}
-        >>  
-        <<
-        { g4. }
-        { s8 [g'8 \glissando e'8]}
-        >>
-        <<
-        { d'4 }
-        { s8 [d'' \glissando e''8]}
-        >>
-        <<
-        { a2~a8 }
-        { r8 e'2 }
-        { r4 c''16 (e''16 c''8) a''8 } 
-        >>
+  <<
+    { g4. }
+    { s8 [e'8 \glissando g'8] }
+  >>
+  <<
+    { g4. }
+    { s8 [g'8 \glissando e'8] }
+  >>
+  <<
+    { d'4 }
+    { s8 [d'' \glissando e''8] }
+  >>
+  <<
+    { a2~a8 }
+    { r8 e'2 }
+    { r4 c''16 (e''16 c''8) a''8 }
+  >>
 }
 
 
