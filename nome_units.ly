@@ -82,10 +82,9 @@ chordfouralt = { <b fis' d'' a''>2 }
 chordfive = { <a e' b' g''>2. }
 chordfivedouble = { <a e' b' g''>1*10/4 }
 
-chordcmajseven = { <c e' b' g''>}
-
-
 strumpatternone = { g4. g4. g4 g4 }
+
+strumthree = { g1*3/4 g1*3/4 r4 g1*3/4 }
 
 pluckone = { g8 [d' b' g'' b'] }
 plucktwo = { b8 [d' c'' fis'' c''] }
@@ -96,6 +95,10 @@ pluckonechord = { <g d' b' g''>1*5/8 }
 plucktwochord = { <b d' c'' fis''>1*5/8 }
 pluckthreechord = { <a e' c'' a''>1*5/8 }
 pluckfourchord = { <g e' b' e''>1*5/8 }
+
+eminorfivefour = { <b g' e'' e''>1*5/4 }
+cmajorthreefour = { <g e' c'' e''>1*3/4 }
+aminortwofour = { <a e' c'' a''>1*2/4 }
 
 bridgechordrest = { r8 }
 
@@ -119,6 +122,7 @@ bridgechordthreemini = { <c' e' b' g''>4 }
 bridgechordthreeshort = { <c' e' b' g''>4. }
 bridgechordthreelong = { <c' e' b' g''>2~  <c' e' b' g''>8 }
 bridgechordthreetab = { <c' e' b' g''>1 }
+bridgechordthreetabten = { <c' e' b' g''>1*10/4 }
 
 bridgechordfourmini = { <b g' b' g''>4 }
 bridgechordfourshort = { <b g' b' g''>4. }
@@ -191,4 +195,7 @@ sevenriffthree = {
   >>
 }
 
+gten = { <g d' b' g''>1*3/4 <g d' b' g''>1*3/4 r4 <g d' b' g''>1*3/4}
+aminorsixten = { <a e' c'' g''>1*3/4 <a e' c'' g''>1*3/4 r4 <a e' c'' g''>1*3/4 }
+cmajten = {<c' e' b' g''>1*3/4 <c' e' b' g''>1*3/4 r4  <c' e' b' g''>1*3/4 }
 

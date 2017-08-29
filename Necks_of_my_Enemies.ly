@@ -25,19 +25,32 @@
           b2.:m
           b2:m7
 
+          e1*5/4:m
+          c1*3/4
+          a1*2/4:m
+
+
           g1*5/8
+                    
           \plucktwochord  % d1*5/8:6maj7
           a1*5/8:m
           e1*5/8:m
-          
+
           g1*10/4
           a1*10/4:m6
           a1*10/4:m7
           a1*10/4:m6
-          
+
           c1:maj7
           g1
           d1*7/4
+          
+          r1*41/4
+          
+          g1*10/4
+          a1*10/4:m6
+          c1*10/4:maj7
+          g1*10/4
 
         }
       }
@@ -61,22 +74,35 @@
 
         \chordfour
         \chordfouralt
-
+        
+        \eminorfivefour
+        \cmajorthreefour
+        \aminortwofour
+        
         \pluckonechord
         \plucktwochord
         \pluckthreechord
         \pluckfourchord
-        
+
         \chordonedouble
         \chordfivedouble
         \chordthreealtdouble
         \chordfivedouble
-        
+
         \bridgechordthreetab
         \bridgechordfourtab
-        
+
         \dmaj
         
+        r1*41/4
+        
+        \chordonedouble
+        \chordfivedouble
+        \bridgechordthreetabten
+        \chordonedouble
+        
+
+
       }
 
       \new StaffGroup \with{
@@ -116,6 +142,8 @@
               \strumpatternone
             }
           }
+          \strumpatternone
+          \strumpatternone
         }
 
         \pluckone
@@ -131,27 +159,7 @@
           \bridgechordoneshortstrum
           \bridgechordonelongstrum
           \bridgechordoneministrum
-               
-          \bridgechordoneshortstrum
-          \bridgechordonelongstrum
-          \bridgechordoneministrum
-          
-          \bridgechordoneshortstrum
-          \bridgechordonelongstrum
-          \bridgechordoneministrum
-          
-          \bridgechordoneshortstrum
-          \bridgechordonelongstrum
-          \bridgechordoneministrum
-          
-          \bridgechordoneshortstrum
-          \bridgechordonelongstrum
-          \bridgechordoneministrum
-          
-          \bridgechordoneshortstrum
-          \bridgechordonelongstrum
-          \bridgechordoneministrum
-          
+
           \bridgechordoneshortstrum
           \bridgechordonelongstrum
           \bridgechordoneministrum
@@ -159,11 +167,31 @@
           \bridgechordoneshortstrum
           \bridgechordonelongstrum
           \bridgechordoneministrum
-          
+
+          \bridgechordoneshortstrum
+          \bridgechordonelongstrum
+          \bridgechordoneministrum
+
+          \bridgechordoneshortstrum
+          \bridgechordonelongstrum
+          \bridgechordoneministrum
+
+          \bridgechordoneshortstrum
+          \bridgechordonelongstrum
+          \bridgechordoneministrum
+
+          \bridgechordoneshortstrum
+          \bridgechordonelongstrum
+          \bridgechordoneministrum
+
+          \bridgechordoneshortstrum
+          \bridgechordonelongstrum
+          \bridgechordoneministrum
+
           \bridgechordoneshortstrum
           \bridgechordoneshortstrum
           \bridgechordoneministrum
-          
+
           \bridgechordoneshortstrum
           \bridgechordoneshortstrum
           \bridgechordoneministrum
@@ -175,18 +203,28 @@
           \bridgechordoneministrum
         }
 
-          \sevenriffone
-          \sevenriffone
-        
-          \sevenrifftwo
-          \sevenriffthree
-          \sevenrifftwo
+        \sevenriffone
+        \sevenriffone
+
+        \sevenrifftwo
+        \sevenriffthree
+        \sevenrifftwo
+
+        \time 3/4
+        \halfriffone
+        \halfrifftwosecond
+
+        \new Voice = "ending" \with {
+          \consists "Pitch_squash_engraver"
+        }
+        {
+          \improvisationOn
+          \strumthree
+          \strumthree
+          \strumthree
+          \strumthree
           
-          \time 3/4
-          \halfriffone
-          \halfrifftwosecond
-
-
+        }
       }
 
       \new TabStaff \with {
@@ -219,66 +257,69 @@
         \pluckfour
 
         \repeat volta 3 {
-        \bridgechordoneshort
-        \bridgechordonelong
-        \bridgechordonemini
+          \bridgechordoneshort
+          \bridgechordonelong
+          \bridgechordonemini
 
-        \bridgechordoneshort
-        \bridgechordonelong
-        \bridgechordonemini
+          \bridgechordoneshort
+          \bridgechordonelong
+          \bridgechordonemini
         }
-        
+
         \alternative
         {
-        { % 1
-        \bridgechordtwoshort
-        \bridgechordtwolong
-        \bridgechordtwomini
-        
-        \bridgechordtwoshort
-        \bridgechordtwolong
-        \bridgechordtwomini
+          {
+            % 1
+            \bridgechordtwoshort
+            \bridgechordtwolong
+            \bridgechordtwomini
+
+            \bridgechordtwoshort
+            \bridgechordtwolong
+            \bridgechordtwomini
+          }
+          {
+            % 2
+            \bridgechordtwoaltshort
+            \bridgechordtwoaltlong
+            \bridgechordtwoaltmini
+
+            \bridgechordtwoaltshort
+            \bridgechordtwoaltlong
+            \bridgechordtwoaltmini
+          }
+          {
+            % 3
+            \bridgechordtwoshort
+            \bridgechordtwolong
+            \bridgechordtwomini
+
+            \bridgechordtwoshort
+            \bridgechordtwolong
+            \bridgechordtwomini
+          }
         }
-        { % 2
-        \bridgechordtwoaltshort
-        \bridgechordtwoaltlong
-        \bridgechordtwoaltmini
-        
-        \bridgechordtwoaltshort
-        \bridgechordtwoaltlong
-        \bridgechordtwoaltmini
-        }
-        { % 3
-        \bridgechordtwoshort
-        \bridgechordtwolong
-        \bridgechordtwomini
-        
-        \bridgechordtwoshort
-        \bridgechordtwolong
-        \bridgechordtwomini
-        }
-        }
-        
+
         \time 4/4
-        
+
         \bridgechordthreeshort
         \bridgechordthreeshort
         \bridgechordthreemini
-        
+
         \bridgechordfourshort
         \bridgechordfourshort
         \bridgechordfourmini
-        
+
         \time 7/4
         \bridgechordfiveshort
         \bridgechordfiveshort
         \bridgechordfiveshort
         \bridgechordfiveshort
         \bridgechordfivemini
-        
+
         \sevenriffone
         \sevenriffone
-        
+
         \sevenrifftwo
         \sevenriffthree
         \sevenrifftwo
@@ -286,9 +327,15 @@
         \time 3/4
         \halfriffone
         \halfrifftwosecond
+
+        \time 10/4
+        \gten
+        \aminorsixten
+        \cmajten
+        \gten
       }
     >>
-    }
+  }
   \midi {}
   \layout {}
 }
