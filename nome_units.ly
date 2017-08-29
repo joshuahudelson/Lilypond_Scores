@@ -67,6 +67,7 @@ chordrest = {
 % G major
 chordone = { <g d' b' g''>1*5/4 }
 chordonedouble = { <g d' b' g''>1*10/4 }
+chordonefermata = { <g d' b' g''\fermata>1*5/4 }
 
 % G...
 chordtwo =  { <g fis' a' g''>1*5/4 }
