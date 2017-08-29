@@ -29,12 +29,14 @@
           c1*3/4
           a1*2/4:m
 
+          r1*21/4
 
           g1*5/8
-                    
           \plucktwochord  % d1*5/8:6maj7
           a1*5/8:m
           e1*5/8:m
+          
+          r1*50/4
 
           g1*10/4
           a1*10/4:m6
@@ -44,9 +46,9 @@
           c1:maj7
           g1
           d1*7/4
-          
+
           r1*41/4
-          
+
           g1*10/4
           a1*10/4:m6
           c1*10/4:maj7
@@ -74,15 +76,19 @@
 
         \chordfour
         \chordfouralt
-        
+
         \eminorfivefour
         \cmajorthreefour
         \aminortwofour
-        
+
+        r1*21/4
+
         \pluckonechord
         \plucktwochord
         \pluckthreechord
         \pluckfourchord
+
+          r1*50/4
 
         \chordonedouble
         \chordfivedouble
@@ -93,14 +99,14 @@
         \bridgechordfourtab
 
         \dmaj
-        
+
         r1*41/4
-        
+
         \chordonedouble
         \chordfivedouble
         \bridgechordthreetabten
         \chordonedouble
-        
+
 
 
       }
@@ -116,13 +122,17 @@
         \key g \major
         \tempo 4 = 180
 
-        \halfriffone \halfrifftwofirst
-        \halfriffone \halfrifftwofirst
-        \halfriffonealt \halfrifftwoalt
+        {
+          \halfriffone \halfrifftwofirst
+          \halfriffone \halfrifftwofirst
+          \halfriffonealt \halfrifftwoalt
+        }
 
         \time 3/4
         \halfriffone \halfrifftwosecond
         \time 5/4
+
+        \mark \markup { \musicglyph #"scripts.segno" }
 
         \new Voice = "verse1" \with
         {
@@ -131,6 +141,7 @@
         {
           \improvisationOn
           {
+
             \repeat volta 3 {
               \strumpatternone
               \strumpatternone
@@ -142,9 +153,47 @@
               \strumpatternone
             }
           }
+
           \strumpatternone
           \strumpatternone
         }
+
+
+        \halfriffone \halfrifftwofirst
+        \halfriffone \halfrifftwofirst
+        \halfriffonealt \halfrifftwoalt
+
+
+        \time 3/4
+        \halfriffone \halfrifftwosecond
+        \time 5/4
+
+        \mark \markup {\medium "D.S."}
+
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+ 
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+        
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
 
         \pluckone
         \plucktwo
@@ -223,7 +272,7 @@
           \strumthree
           \strumthree
           \strumthree
-          
+
         }
       }
 
@@ -251,11 +300,45 @@
         \chordfour
         \chordfouralt
 
+        \eminorfivefour
+        \cmajorthreefour
+        \aminortwofour
+
+        \halfriffone \halfrifftwofirst
+        \halfriffone \halfrifftwofirst
+        \halfriffonealt \halfrifftwoalt
+        \halfriffone \halfrifftwosecond
+
         \pluckone
         \plucktwo
         \pluckthree
         \pluckfour
 
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+
+        \pluckone
+        \plucktwo
+        \pluckthree
+        \pluckfour
+        
         \repeat volta 3 {
           \bridgechordoneshort
           \bridgechordonelong
