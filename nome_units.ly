@@ -64,19 +64,28 @@ chordrest = {
   R1*3/4
 }
 
+% G major
 chordone = { <g d' b' g''>1*5/4 }
+chordonedouble = { <g d' b' g''>1*10/4 }
+
+% G...
 chordtwo =  { <g fis' a' g''>1*5/4 }
 
+% A minor / A minor 6
 chordthree = { <a e' c'' a''>2. }
 chordthreealt = { <a e' c'' g''>2 }
+chordthreealtdouble = { <a e' c'' g''>1*10/4 }
 
 chordfour = { <b fis' d'' b''>2. }
 chordfouralt = { <b fis' d'' a''>2 }
 
 chordfive = { <a e' b' g''>2. }
+chordfivedouble = { <a e' b' g''>1*10/4 }
+
+chordcmajseven = { <c e' b' g''>}
+
 
 strumpatternone = { g4. g4. g4 g4 }
-
 
 pluckone = { g8 [d' b' g'' b'] }
 plucktwo = { b8 [d' c'' fis'' c''] }
@@ -109,14 +118,18 @@ bridgechordtwoaltlong = { <a e' c'' g''>2~ <a e' c'' g''>8}
 bridgechordthreemini = { <c' e' b' g''>4 }
 bridgechordthreeshort = { <c' e' b' g''>4. }
 bridgechordthreelong = { <c' e' b' g''>2~  <c' e' b' g''>8 }
+bridgechordthreetab = { <c' e' b' g''>1 }
 
 bridgechordfourmini = { <b g' b' g''>4 }
 bridgechordfourshort = { <b g' b' g''>4. }
 bridgechordfourlong = { <b g' b' g''>2~ <b g' b' g''>8 }
+bridgechordfourtab = { <b g' b' g''>1 }
 
 bridgechordfivemini = { <a fis' d'' fis''>4 }
 bridgechordfiveshort = { <a fis' d'' fis''>4. }
 bridgechordfivelong = { <a fis' d'' fis''>2~ <a fis' d'' fis''>8 }
+
+dmaj = { <a fis' d'' fis''>1*7/4 }
 
 sevenriffone = {
   <<
@@ -154,7 +167,27 @@ sevenrifftwo = {
   <<
     { a2~a8 }
     { r8 e'2 }
-    { r4 c''16 (e''16 c''8) a''8 }
+    { r4 b'16 (d''16 b'8) a'8 }
+  >>
+}
+
+sevenriffthree = {
+  <<
+    { g4. }
+    { s8 [e'8 \glissando g'8] }
+  >>
+  <<
+    { g4. }
+    { s8 [g'8 \glissando e'8] }
+  >>
+  <<
+    { d'4 }
+    { s8 [d'' \glissando e''8] }
+  >>
+  <<
+    { a2~a8 }
+    { r8 e'2 }
+    { r4 b'16 (d''16 b'8) d''8 }
   >>
 }
 

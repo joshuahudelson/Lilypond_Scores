@@ -29,6 +29,16 @@
           \plucktwochord  % d1*5/8:6maj7
           a1*5/8:m
           e1*5/8:m
+          
+          g1*10/4
+          a1*10/4:m6
+          a1*10/4:m7
+          a1*10/4:m6
+          
+          c1:maj7
+          g1
+          d1*7/4
+
         }
       }
 
@@ -56,6 +66,17 @@
         \plucktwochord
         \pluckthreechord
         \pluckfourchord
+        
+        \chordonedouble
+        \chordfivedouble
+        \chordthreealtdouble
+        \chordfivedouble
+        
+        \bridgechordthreetab
+        \bridgechordfourtab
+        
+        \dmaj
+        
       }
 
       \new StaffGroup \with{
@@ -156,8 +177,14 @@
 
           \sevenriffone
           \sevenriffone
-          
+        
           \sevenrifftwo
+          \sevenriffthree
+          \sevenrifftwo
+          
+          \time 3/4
+          \halfriffone
+          \halfrifftwosecond
 
 
       }
@@ -253,11 +280,16 @@
         \sevenriffone
         
         \sevenrifftwo
-        
+        \sevenriffthree
+        \sevenrifftwo
+
+        \time 3/4
+        \halfriffone
+        \halfrifftwosecond
       }
     >>
     }
-  %\midi {}
+  \midi {}
   \layout {}
 }
 
